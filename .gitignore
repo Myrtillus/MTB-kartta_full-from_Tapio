@@ -1,0 +1,6 @@
+*.thumb.png
+*.py
+data/
+.git/
+*.xml
+*.bat
