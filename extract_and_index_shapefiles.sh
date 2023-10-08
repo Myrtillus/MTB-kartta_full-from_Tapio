@@ -10,7 +10,8 @@ UNZIP_OPTS=-qqu
 
 # simplified-land-polygons-complete-3857
 echo "expanding simplified-land-polygons-complete-3857..."
-unzip $UNZIP_OPTS data/simplified-land-polygons-complete-3857.zip simplified-land-polygons-complete-3857/simplified_land_polygons.{shp,shx,prj,dbf,cpg} -d data/
+#unzip $UNZIP_OPTS data/simplified-land-polygons-complete-3857.zip simplified-land-polygons-complete-3857/simplified_land_polygons.{shp,shx,prj,dbf,cpg} -d data/
+unzip $UNZIP_OPTS data/simplified-land-polygons-complete-3857.zip -d data/
 
 # land-polygons-split-3857
 echo "expanding land-polygons-split-3857..."
